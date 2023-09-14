@@ -3,7 +3,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>org.erikspan</groupId>
    <artifactId>crdt</artifactId>
-   <version>1.0</version>
+   <version>1.1</version>
    <packaging>pom</packaging>
    <name>Java CRDTs</name>
    <description>A modular implementation of Java-based CRDTs. Meant for application level development independent of backing stores.</description>
@@ -15,9 +15,9 @@
    </licenses>
    <properties>
       <version.javax.inject>1</version.javax.inject>
-      <version.junit>4.11</version.junit>
-      <version.jackson>2.4.1</version.jackson>
-      <version.guava>18.0</version.guava>
+      <version.junit>4.13.2</version.junit>
+      <version.jackson>2.15.2</version.jackson>
+      <version.guava>30.0-android</version.guava>
    </properties>
       <dependencies>
          <dependency>
